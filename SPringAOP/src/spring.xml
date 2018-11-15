@@ -16,4 +16,6 @@
      </bean> 
     <bean id="empaspect" class="com.spring.aop.EmployeeAspect"></bean>
         
+    <bean id="empaspect1" class="com.spring.aop.EmpAspect"></bean>
+    <bean id="empaspect2" class="com.spring.aop.EmpAspect1"></bean>
 </beans>
