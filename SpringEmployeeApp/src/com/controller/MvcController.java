@@ -41,5 +41,8 @@ public class MvcController {
 		return  new ModelAndView("empinfo1");
 	}
 	
-	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 }
