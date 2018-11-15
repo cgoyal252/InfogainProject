@@ -13,7 +13,7 @@ public class EmpAspect1 {
 	@Before("execution(* com.spring.aop.EmployeeService.addEmployee() )")
 	public void beforeadd()
 	{
-		System.out.println("Before 2....");
+		System.out.println("Before 21....");
 	}
 	
 	
